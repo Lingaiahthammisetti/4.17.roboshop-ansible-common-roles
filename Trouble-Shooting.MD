@@ -1,5 +1,6 @@
-Troubleshoot Servers:
-DB:
+# Troubleshooting Servers:
+
+# DB:
 check mysql service is running or not
 systemctl status mysqld
 check port no 3306 is opened or not
@@ -11,7 +12,7 @@ ps -ef | grep mysql
 How to check IP Address is accessible or not
 $ping -c3 db.lingaiah.online
 
-Backend:
+# Backend:
 check backend service is running
 systemctl status backend
 check port no 8080 is running or not
@@ -33,7 +34,7 @@ show tables;
 How to check expense application is running or not
 ps -ef | grep expense
 
-frontend:
+# frontend:
 check frontend service is running
 systemctl status nginx
 check port no 80 is running or not
